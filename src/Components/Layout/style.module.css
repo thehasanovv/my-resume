@@ -1,7 +1,7 @@
 .main-container {
   background-color: #f4f4f4;
   min-height: 100vh;
-  padding: 4em 5em;
+  padding: 6em 5em;
 }
 
 .wrapper {
@@ -83,5 +83,11 @@ h3 {
   .main-container {
     background-color: #f4f4f4;
     padding: 4em 1em;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .wrapper {
+    margin-left: -4px;
   }
 }
