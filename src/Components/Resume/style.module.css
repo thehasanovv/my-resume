@@ -1,0 +1,59 @@
+.header {
+  border-bottom: 1px solid hsla(0, 0%, 62.7%, 0.3);
+  height: 9em;
+}
+.list {
+  display: flex;
+  align-items: center;
+}
+
+.list li {
+  padding: 0 0.5em;
+  list-style: none;
+}
+.list li a {
+  color: #3c3b3b;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.7em;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.list li :hover {
+  color: #0074d9;
+}
+
+h3 {
+  text-align: center;
+  margin: 0.8em 0;
+}
+
+.education {
+  margin-top: 2.5em;
+}
+.education > p {
+  color: #808080;
+  font-family: "Raleway", Helvetica, sans-serif;
+}
+.education > p > span {
+  font-size: 0.9em;
+  border-bottom: 1px dotted hsla(0, 0%, 62.7%, 0.3);
+}
+
+.body {
+  margin-bottom: 0.1em;
+  text-transform: none;
+  letter-spacing: 0.16em;
+  font-size: 0.8em;
+}
+.experience a {
+  color: #000;
+}
+.experience p {
+  font-family: "Raleway", Helvetica, sans-serif;
+  font-size: 0.7em;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  line-height: 2.5;
+  text-transform: uppercase;
+}
