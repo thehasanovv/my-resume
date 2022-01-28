@@ -1,0 +1,12 @@
+.icons {
+  color: #aaa;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.icons li {
+  list-style: none;
+}
