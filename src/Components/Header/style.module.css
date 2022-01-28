@@ -78,7 +78,9 @@ nav ul ::after {
   .wrapper {
     justify-content: space-between;
   }
-
+  nav ul ::after {
+    width: 0;
+  }
   nav ul {
     position: fixed;
     top: 6vh;

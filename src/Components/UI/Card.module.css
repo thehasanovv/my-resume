@@ -13,3 +13,9 @@
     padding: 2.75em 1.5em 1.75em;
   }
 }
+
+@media screen and (max-width: 376px) {
+  .card {
+    margin-left: -4px;
+  }
+}

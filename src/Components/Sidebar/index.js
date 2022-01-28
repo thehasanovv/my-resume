@@ -2,8 +2,10 @@ import React from "react";
 import me from "../../assets/me.jpg";
 import classes from "./style.module.css";
 import Icons from "../UI/Icons";
+import { useNavigate } from "react-router-dom";
 
 function Sidebar() {
+  const history = useNavigate();
   return (
     <React.Fragment>
       <aside className={classes.sidebar}>
@@ -20,7 +22,14 @@ function Sidebar() {
             Arthena I was at Matroid, Planet, Planetary Resources, Facebook, and
             SEDS.
           </p>
-          <button>Learn More</button>
+
+          <button
+            onClick={() => {
+              history("/resume");
+            }}
+          >
+            Learn More
+          </button>
         </section>
         <div className={classes.icons}>
           <Icons color={"aaa"} />
