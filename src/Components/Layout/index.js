@@ -20,7 +20,7 @@ function Layout(props) {
     } else {
       setReverse(false);
     }
-  }, [handleResize]);
+  }, [windowWidth]);
 
   return (
     <React.Fragment>

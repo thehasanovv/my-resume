@@ -8,7 +8,7 @@ function Projescts() {
     <Fragment>
       <div className={layoutClasses.title}>
         <h2>
-          <a>Projects</a>
+          <a href="#">Projects</a>
         </h2>
         <p>A SELECTION OF PROJECTS THAT I'M NOT TOO ASHAMED OF</p>
       </div>

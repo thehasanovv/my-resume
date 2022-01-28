@@ -6,7 +6,7 @@ function About() {
     <React.Fragment>
       <div className={classes.title}>
         <h2>
-          <a>Contact</a>
+          <a href="#">Contact</a>
         </h2>
       </div>
       <p style={{ color: "#646464" }}>

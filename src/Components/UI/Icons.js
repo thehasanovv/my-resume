@@ -11,7 +11,7 @@ function Icons(props) {
       <li>
         <a
           href="https://github.com/thehasanovv"
-          target="_blank"
+          target="noreferrer"
           style={{ color: props.color }}
         >
           <GitHubIcon />
@@ -20,7 +20,7 @@ function Icons(props) {
       <li>
         <a
           href="https://www.linkedin.com/in/elnur-hasanov-359a07227/"
-          target="_blank"
+          target="noreferrer"
           style={{ color: props.color }}
         >
           <LinkedInIcon />
@@ -29,7 +29,7 @@ function Icons(props) {
       <li>
         <a
           href="https://www.facebook.com/elnur.hasanov.senator"
-          target="_blank"
+          target="noreferrer"
           style={{ color: props.color }}
         >
           <FacebookIcon />
@@ -38,7 +38,7 @@ function Icons(props) {
       <li>
         <a
           href="https://www.instagram.com/elnur.hassan/"
-          target="_blank"
+          target="noreferrer"
           style={{ color: props.color }}
         >
           <InstagramIcon />

@@ -7,7 +7,7 @@ function Resume() {
     <React.Fragment>
       <div className={rClasses.header}>
         <h2 className={rClasses.title}>
-          <a>Resume</a>
+          <a href="#">Resume</a>
         </h2>
         <ul className={rClasses.list}>
           <li>

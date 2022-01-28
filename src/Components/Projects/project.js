@@ -10,8 +10,8 @@ function Project(props) {
             <h3>{props.title}</h3>
             <time className={classes.published}>{props.published}</time>
           </div>
-          <a className={classes.image}>
-            <img src={props.image} />
+          <a href="#" className={classes.image}>
+            <img src={props.image} alt="" />
           </a>
         </article>
         <div className={classes.description}>

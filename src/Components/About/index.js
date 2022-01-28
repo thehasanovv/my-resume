@@ -5,7 +5,7 @@ function About() {
     <React.Fragment>
       <div className={classes.title}>
         <h2>
-          <a>About this site</a>
+          <a href="#">About this site</a>
         </h2>
         <p>
           A BEAUTIFUL, RESPONSIVE, STATICALLY-GENERATED, REACT APPLICATION
