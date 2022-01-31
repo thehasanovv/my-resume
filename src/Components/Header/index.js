@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import classes from "./style.module.css";
+
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -12,16 +13,16 @@ function Header() {
         </h1>
         <nav>
           <ul className={isOpen && classes["nav-active"]}>
-            <li>
+            <li onClick={() => setIsOpen(!isOpen)}>
               <Link to="/about">ABOUT</Link>
             </li>
-            <li>
+            <li onClick={() => setIsOpen(!isOpen)}>
               <Link to="/resume">RESUME</Link>
             </li>
-            <li>
+            <li onClick={() => setIsOpen(!isOpen)}>
               <Link to="/projects">PROJECTS</Link>
             </li>
-            <li>
+            <li onClick={() => setIsOpen(!isOpen)}>
               <Link to="/contact">CONTACT</Link>
             </li>
           </ul>

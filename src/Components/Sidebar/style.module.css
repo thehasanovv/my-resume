@@ -2,7 +2,6 @@
   margin-right: 3rem;
   min-width: 22em;
   width: 22em;
-
   color: #3c3b3b;
 }
 
@@ -86,5 +85,11 @@ button {
   .icons > ul {
     justify-content: center;
     margin-bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .sidebar {
+    margin-top: 3em;
   }
 }

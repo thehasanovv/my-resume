@@ -11,6 +11,7 @@ function Sidebar() {
       <aside className={classes.sidebar}>
         <section>
           <img src={me} alt="" />
+
           <h2>Elnur Hasanov</h2>
           <a href="mailto:hasanov.95@gmail.com">hasanov.e95@gmail.com</a>
         </section>
