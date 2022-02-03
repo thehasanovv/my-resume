@@ -27,8 +27,8 @@ function Resume() {
       <div id="education" className={rClasses.education}>
         <h3>EDUCATION</h3>
         <p>
-          M.S. Computational and Mathematical Engineering <br />
-          <span>Stanford University, 2016</span>
+          International relations <br />
+          <span>Baku State University, 2021</span>
         </p>
       </div>
       <div id="experience" className={rClasses.experience}>
@@ -36,27 +36,12 @@ function Resume() {
         <h4>
           <a href="#">Roof Academic Training</a> - Accauntants
         </h4>
-        <p>JANUARY 2014 - PRESENT</p>
+        <p>December 2019 - September 2021 </p>
         <div className={classes.main}>
           <ul>
-            <li>
-              Deployed quantitative strategies to predict the value of fine art
-              in various pricing contexts.
-            </li>
-            <li>
-              Built production, on-line, end-to-end optimized machine learning
-              pipelines with Pandas, Numpy, Scikit, Tensorflow, Dagster,
-              Postgres, etc. on GCP with Kubernetes.
-            </li>
-            <li>
-              Designed micro-service architecture around: data collection, data
-              integrity, feature engineering, research, strategy, backtesting,
-              deployment, and reporting.
-            </li>
-            <li>
-              YC Alumn. Worked on everything. Built a 16-person team. Operated
-              company for 6+ years.
-            </li>
+            <li>Ensure timely bank payments</li>
+            <li>Handle monthly, quarterly and annual closings</li>
+            <li>Auditing financial information</li>
           </ul>
         </div>
       </div>
@@ -66,16 +51,25 @@ function Resume() {
           <ul>
             <li>HTML</li>
             <li>CSS</li>
+            <li>Bootstrap</li>
             <li>JavaScript</li>
             <li>jQuery</li>
-            <li>React</li>
+            <li>React JS</li>
+            <li>Material UI</li>
             <li>API</li>
-            <li>Fetch</li>
+            <li>AJAX</li>
           </ul>
         </div>
       </div>
       <div id="courses" className={rClasses.courses}>
-        <h3>Courses</h3>
+        <h3>Certificates</h3>
+        <ul>
+          <li>
+            <a href="https://www.udemy.com/certificate/UC-a3bab2d7-a0f9-4e97-bf48-869a728eb307/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email">
+              20 Web Projects with Vanilla JavaScript{" "}
+            </a>
+          </li>
+        </ul>
       </div>
     </React.Fragment>
   );

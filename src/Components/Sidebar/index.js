@@ -18,10 +18,9 @@ function Sidebar() {
         <section className={classes.blurb}>
           <h3>About</h3>
           <p>
-            Hi, I'm Elnur. I like building things. I am a Stanford ICME
-            graduate, YC Alumni, and the co-founder and CTO of Arthena. Before
-            Arthena I was at Matroid, Planet, Planetary Resources, Facebook, and
-            SEDS.
+            Hi, I'm Elnur. I like coding and expanding my technical skills day
+            by day. I have huge interest for learning new frameworks and
+            languages.
           </p>
 
           <button

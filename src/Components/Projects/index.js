@@ -1,6 +1,8 @@
 import { Fragment } from "react";
 import layoutClasses from "../Layout/style.module.css";
-
+import pigGameImg from "../../assets/pig-game.png";
+import bookStoreImg from "../../assets/book-store.png";
+import teslaCLone from "../../assets/tesla-clone.png";
 import Project from "./project";
 
 function Projescts() {
@@ -13,20 +15,27 @@ function Projescts() {
         <p>A SELECTION OF PROJECTS THAT I'M NOT TOO ASHAMED OF</p>
       </div>
       <Project
-        title={"Nearest Dollar"}
-        published={"NOVEMBER, 2015"}
-        image={"https://picsum.photos/seed/picsum/1000/600"}
-        description={
-          "Lorem ipsum dolor sit amet, consect. Lorem ipsum dolor sit amet, consectetur"
-        }
+        title={"Tesla clone"}
+        published={"January, 2022"}
+        image={teslaCLone}
+        description={"Tesla clone with react & redux"}
+        link={"https://tesla-clone-94qat2rmj-thehasanovv.vercel.app/"}
       />
       <Project
-        title={"Nearest Dollar"}
-        published={"NOVEMBER, 2015"}
-        image={"https://picsum.photos/id/237/1000/600"}
+        title={"Book store"}
+        published={"December, 2021"}
+        image={bookStoreImg}
+        description={"Book store from A-Z"}
+        link={"https://huseynahmadov.github.io/book-store/index.html"}
+      />
+      <Project
+        title={"Pig Game"}
+        published={"November, 2021"}
+        image={pigGameImg}
         description={
-          "Lorem ipsum dolor sit amet, consect. Lorem ipsum dolor sit amet, consectetur"
+          "The game of Pig is a very simple jeopardy dice game in which two players race to reach 100 points."
         }
+        link={"https://thehasanovv.github.io/pig-game/"}
       />
     </Fragment>
   );

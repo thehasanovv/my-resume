@@ -10,7 +10,7 @@ function Project(props) {
             <h3>{props.title}</h3>
             <time className={classes.published}>{props.published}</time>
           </div>
-          <a href="#" className={classes.image}>
+          <a href={props.link} className={classes.image} target="_blank">
             <img src={props.image} alt="" />
           </a>
         </article>

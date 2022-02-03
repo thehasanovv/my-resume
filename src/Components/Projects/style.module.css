@@ -9,6 +9,7 @@
   border: 1px solid hsla(0, 0%, 62.7%, 0.3);
   margin: 0 0 2em;
 }
+
 .mini-post-header {
   z-index: 2;
   padding: 1.25em 4.25em 0.1em 1.25em;
@@ -45,6 +46,7 @@
 
 .image img {
   width: 100%;
+  height: auto;
   object-fit: contain;
   transition: transform 0.5s ease-out, -webkit-transform 0.2s ease-out;
 }

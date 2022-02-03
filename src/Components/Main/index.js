@@ -19,7 +19,13 @@ function Main() {
           can check out my resume, projects, view site statistics, or contact
           me.
         </p>
-        <p>Source available here.</p>
+        <p>
+          Source available{" "}
+          <a link href="https://github.com/thehasanovv/my-resume">
+            here
+          </a>
+          .
+        </p>
       </div>
     </React.Fragment>
   );
