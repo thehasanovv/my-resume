@@ -13,7 +13,7 @@ function Sidebar() {
           <img src={me} alt="" />
 
           <h2>Elnur Hasanov</h2>
-          <a href="mailto:hasanov.95@gmail.com">hasanov.e95@gmail.com</a>
+          <a href="mailto:byelnurhasanov@gmail.com">byelnurhasanov@gmail.com</a>
         </section>
         <section className={classes.blurb}>
           <h3>About</h3>

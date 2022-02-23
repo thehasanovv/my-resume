@@ -12,8 +12,11 @@ function About() {
       <p style={{ color: "#646464" }}>
         Feel free to get in touch. You can email me at: <br />
         <span>
-          <a href="mailto:hasanov.95@gmail.com" style={{ color: "#646464" }}>
-            hasanov.e950@gmail.com
+          <a
+            href="mailto:byelnurhasanov@gmail.com"
+            style={{ color: "#646464" }}
+          >
+            byelnurhasanov@gmail.com
           </a>
         </span>
       </p>

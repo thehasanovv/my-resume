@@ -57,3 +57,7 @@ h3 {
   line-height: 2.5;
   text-transform: uppercase;
 }
+
+.courses li {
+  line-height: 1.7em;
+}

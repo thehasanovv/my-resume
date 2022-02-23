@@ -9,8 +9,8 @@ function Main() {
           <a href="#">About this site</a>
         </h2>
         <p>
-          A BEAUTIFUL, RESPONSIVE, STATICALLY-GENERATED, REACT APPLICATION
-          WRITTEN WITH MODERN JAVASCRIPT.
+          RESPONSIVE, STATICALLY-GENERATED, REACT APPLICATION WRITTEN WITH
+          MODERN JAVASCRIPT.
         </p>
       </div>
       <div>
