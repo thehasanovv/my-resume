@@ -3,6 +3,8 @@ import layoutClasses from "../Layout/style.module.css";
 import pigGameImg from "../../assets/pig-game.png";
 import bookStoreImg from "../../assets/book-store.png";
 import teslaCLone from "../../assets/tesla-clone.png";
+import adminFoody from "../../assets/admin-foody.png";
+import papaJohns from "../../assets/papa-johns.png";
 import Project from "./project";
 
 function Projescts() {
@@ -14,6 +16,20 @@ function Projescts() {
         </h2>
         <p>A SELECTION OF PROJECTS THAT I'M NOT TOO ASHAMED OF</p>
       </div>
+      <Project
+        title={"Papa Johns Clone"}
+        published={"February, 2022"}
+        image={papaJohns}
+        description={"Papa Johns Clone with react & redux"}
+        link={"https://papa-johns-clone.vercel.app/"}
+      />
+      <Project
+        title={"Admin Foody Delivery"}
+        published={"February, 2022"}
+        image={adminFoody}
+        description={""}
+        link={"https://foody-delivery-app.vercel.app/panel/dashboard"}
+      />
       <Project
         title={"Tesla clone"}
         published={"January, 2022"}
