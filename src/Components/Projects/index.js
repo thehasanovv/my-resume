@@ -5,6 +5,7 @@ import bookStoreImg from "../../assets/book-store.png";
 import teslaCLone from "../../assets/tesla-clone.png";
 import adminFoody from "../../assets/admin-foody.png";
 import papaJohns from "../../assets/papa-johns.png";
+import disney from "../../assets/disney-clone.png";
 import Project from "./project";
 
 function Projescts() {
@@ -16,6 +17,13 @@ function Projescts() {
         </h2>
         <p>A SELECTION OF PROJECTS THAT I'M NOT TOO ASHAMED OF</p>
       </div>
+      <Project
+        title={"Disney+ Clone"}
+        published={"February, 2022"}
+        image={disney}
+        description={"Disnay Clone with redux & firebase"}
+        link={"https://disneyplus-clone-53918.web.app/"}
+      />
       <Project
         title={"Papa Johns Clone"}
         published={"February, 2022"}
