@@ -6,6 +6,7 @@ import teslaCLone from "../../assets/tesla-clone.png";
 import adminFoody from "../../assets/admin-foody.png";
 import papaJohns from "../../assets/papa-johns.png";
 import disney from "../../assets/disney-clone.png";
+import shopping from "../../assets/shopping-app.png";
 import Project from "./project";
 
 function Projescts() {
@@ -17,6 +18,13 @@ function Projescts() {
         </h2>
         <p>A SELECTION OF PROJECTS THAT I'M NOT TOO ASHAMED OF</p>
       </div>
+      <Project
+        title={"Shopping App"}
+        published={"March, 2022"}
+        image={shopping}
+        description={"Currently working"}
+        link={"https://shopping-app-three.vercel.app/"}
+      />
       <Project
         title={"Disney+ Clone"}
         published={"February, 2022"}
