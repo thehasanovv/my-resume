@@ -30,7 +30,7 @@ function Projescts() {
         title={"Bankist App"}
         published={"March, 2022"}
         image={bankistApp}
-        description={"Not full responsive"}
+        description={"Bankist"}
         link={"https://bankist-app-xi.vercel.app//"}
       />
       <Project
