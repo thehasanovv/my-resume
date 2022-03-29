@@ -8,6 +8,7 @@ import papaJohns from "../../assets/papa-johns.png";
 import disney from "../../assets/disney-clone.png";
 import shopping from "../../assets/shopping-app.png";
 import bankistApp from "../../assets/bankist-app.png";
+import foodyDelivery from "../../assets/foody-delivery.png";
 import Project from "./project";
 
 function Projescts() {
@@ -32,6 +33,13 @@ function Projescts() {
         image={bankistApp}
         description={"Bankist"}
         link={"https://bankist-app-xi.vercel.app//"}
+      />
+      <Project
+        title={"Foody Delivery"}
+        published={"March, 2022"}
+        image={foodyDelivery}
+        description={"Foody Delivery"}
+        link={"https://foody-delivery.vercel.app/"}
       />
       <Project
         title={"Disney+ Clone"}
