@@ -6,9 +6,9 @@ import teslaCLone from "../../assets/tesla-clone.png";
 import adminFoody from "../../assets/admin-foody.png";
 import papaJohns from "../../assets/papa-johns.png";
 import disney from "../../assets/disney-clone.png";
-import shopping from "../../assets/shopping-app.png";
 import bankistApp from "../../assets/bankist-app.png";
 import foodyDelivery from "../../assets/foody-delivery.png";
+import petrongApp from "../../assets/petrong-app.png";
 import Project from "./project";
 
 function Projescts() {
@@ -21,11 +21,11 @@ function Projescts() {
         <p>A SELECTION OF PROJECTS THAT I'M NOT TOO ASHAMED OF</p>
       </div>
       <Project
-        title={"Shopping App"}
-        published={"March, 2022"}
-        image={shopping}
+        title={"Petrong App"}
+        published={"April, 2022"}
+        image={petrongApp}
         description={"Currently working"}
-        link={"https://shopping-app-three.vercel.app/"}
+        link={"https://petrong.vercel.app/"}
       />
       <Project
         title={"Bankist App"}
@@ -39,7 +39,7 @@ function Projescts() {
         published={"March, 2022"}
         image={foodyDelivery}
         description={"Foody Delivery"}
-        link={"https://foody-delivery.vercel.app/"}
+        link={"https://food-delivery-client.vercel.app/"}
       />
       <Project
         title={"Disney+ Clone"}
