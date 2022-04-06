@@ -35,14 +35,13 @@ function Resume() {
       <div id="experience" className={rClasses.experience}>
         <h3>EXPERIENCE</h3>
         <h4>
-          <a href="#">Roof Academic Training</a> - Accauntants
+          <a href="#">EA Camp</a> - Front-End Developer
         </h4>
-        <p>December 2019 - September 2021 </p>
+        <p>Oct 2021 - Present</p>
         <div className={classes.main}>
           <ul>
-            <li>Ensure timely bank payments</li>
-            <li>Handle monthly, quarterly and annual closings</li>
-            <li>Auditing financial information</li>
+            <li>Working with HTML, CSS JavaScript and React JS</li>
+            <li>Figma</li>
           </ul>
         </div>
       </div>
