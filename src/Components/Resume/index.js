@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "../Layout/style.module.css";
 import rClasses from "./style.module.css";
+import { Certificates } from "../../data-app/Certificates";
 
 function Resume() {
   return (
@@ -64,16 +65,11 @@ function Resume() {
       <div id="courses" className={rClasses.courses}>
         <h3>Certificates</h3>
         <ul>
-          <li>
-            <a href="https://www.udemy.com/certificate/UC-82697047-03e3-42b6-9918-72da17055bd4/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email">
-              React - The Complete Guide (incl Hooks, React Router, Redux){" "}
-            </a>
-          </li>
-          <li>
-            <a href="https://www.udemy.com/certificate/UC-a3bab2d7-a0f9-4e97-bf48-869a728eb307/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email">
-              20 Web Projects with Vanilla JavaScript{" "}
-            </a>
-          </li>
+          {Certificates.map((certificate) => (
+            <li key={certificate.id}>
+              <a href={certificate.href}>{certificate.name}</a>
+            </li>
+          ))}
         </ul>
       </div>
     </React.Fragment>
