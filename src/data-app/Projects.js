@@ -10,7 +10,7 @@ import petrongApp from "../assets/petrong-app.png";
 
 export const Projects = [
   {
-    id: "008",
+    id: "009",
     title: "Petrong App",
     published: "April, 2022",
     image: petrongApp,
@@ -48,14 +48,6 @@ export const Projects = [
     image: papaJohns,
     description: "Papa Johns Clone with react & redux",
     link: "https://papa-johns-clone.vercel.app/",
-  },
-  {
-    id: "005",
-    title: "Tesla clone",
-    published: "January, 2022",
-    image: teslaCLone,
-    description: "Tesla clone with react & redux",
-    link: "https://tesla-clone-94qat2rmj-thehasanovv.vercel.app/",
   },
   {
     id: "004",
